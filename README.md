@@ -1,4 +1,4 @@
-# Evolu
+# Evolu-Old
 
 [Local-first](https://www.inkandswitch.com/local-first) platform designed for privacy, ease of use, and no vendor lock-in
 
