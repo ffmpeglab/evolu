@@ -84,7 +84,7 @@ export const ServerLive = Layer.effect(
               }),
             }),
           );
-          broadcastByMap(body as any, socketUserMap, request.userId);
+          broadcastByMap(body, socketUserMap, request.userId);
           const merkleTree = yield* _(
             Effect.promise(() =>
               db
