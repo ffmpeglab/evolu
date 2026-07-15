@@ -10,7 +10,6 @@
     "test": "turbo test --filter=!./examples/*",
     "clean": "turbo clean && rm -rf node_modules pnpm-lock.yaml",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "version": "changeset version && pnpm install --no-frozen-lockfile && pnpm format",
     "release": "pnpm run build && changeset publish",
     "ios": "cd apps/native && pnpm ios",
     "android": "cd apps/native && pnpm android",
@@ -21,7 +20,6 @@
     "examples:build": "turbo build --filter=./examples/*"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.5",
     "eslint": "^8.57.0",
     "eslint-config-evolu": "workspace:*",
     "prettier": "^3.3.2",
